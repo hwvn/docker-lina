@@ -23,6 +23,8 @@ cryptography==2.2.2
 decorator==4.2.1
 Django==1.11
 -e git+https://github.com/tamhv/django-admin-bootstrapped@6e450196de4d3cfd11b4b45acf0d678f49f4414e#egg=django_admin_bootstrapped
+django-appconf==1.0.2
+-e git+https://github.com/gooesoft/django-attachments@dce52a51dcc15ec029592738621a96619a5dda7f#egg=django_attachments
 django-autocomplete-light==3.2.10
 django-autofixture==0.12.1
 django-bootstrap-breadcrumbs==0.8.2
@@ -39,6 +41,8 @@ django-debug-toolbar==1.9.1
 django-extensions==2.0.6
 django-filter==1.1.0
 django-formtools==2.1
+django-fsm==2.6.0
+django-fsm-log==1.5.0
 django-hijack==2.1.7
 django-model-utils==3.1.1
 django-oidc-rp==0.2.0
@@ -46,8 +50,10 @@ django-oidc-rp==0.2.0
 django-ordered-model==1.4.3
 django-polymorphic==2.0.2
 django-redis==4.9.0
+django-semanticui-forms==1.6.5
 django-sendfile==0.3.11
 django-summernote==0.8.8.6
+django-tables2==1.21.2
 django-taggit==0.22.2
 django-vanilla-views==1.0.4
 django-webpack-loader==0.6.0
@@ -85,6 +91,7 @@ oic==0.10.0.0
 parso==0.1.1
 pexpect==4.4.0
 pickleshare==0.7.4
+Pillow==5.2.0
 pip-tools==1.11.0
 pluggy==0.6.0
 poyo==0.4.1
@@ -98,7 +105,6 @@ pycryptodomex==3.5.1
 pyfcm==1.4.5
 pyflakes==1.6.0
 Pygments==2.2.0
-pygraphviz==1.3.1
 pyjwkest==1.4.0
 pyOpenSSL==17.5.0
 pytest==3.5.0
@@ -112,6 +118,7 @@ requests-toolbelt==0.8.0
 responses==0.8.1
 retrying==1.3.3
 sh==1.12.14
+simpleflake==0.1.5
 simplegeneric==0.8.1
 six==1.11.0
 sqlparse==0.2.4

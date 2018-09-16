@@ -21,6 +21,7 @@ RUN set -ex \
     pango-dev \
     libmagic \
     cairo \
+    graphviz\ 
     pango \
     glib \
     git \
@@ -30,11 +31,13 @@ RUN set -ex \
   && rm -rf /var/cache/apk/* && \
   chown -R nginx:www-data /var/lib/nginx
 
+RUN pip install --upgrade pip
+
 RUN pip install uwsgi
 RUN pip install weasyprint
 
 COPY ./requirements.txt /requirements.txt
-RUN pip install --no-cache-dir -r /requirements.txt
-
+#RUN pip install --no-cache-dir -r /requirements.txt
+RUN pip install -r /requirements.txt
 #COPY ./fonts /usr/share/fonts
 RUN fc-cache
