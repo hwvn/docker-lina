@@ -20,6 +20,7 @@ RUN set -ex \
     postgresql-dev \
     python3-dev \
     libmagic \
+    ffmpeg \
     git \
     curl \
   && rm -rf /var/cache/apk/*
