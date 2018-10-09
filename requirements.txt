@@ -10,7 +10,7 @@ coreapi==2.3.3
 coreschema==0.0.4
 coverage==4.5.1
 decorator==4.3.0
-Django==1.11.14
+Django==1.11.15
 django-appconf==1.0.2
 -e git+https://github.com/gooesoft/django-attachments@4d325a5d13a77961185ebfa678c06b22be037802#egg=django_attachments
 django-autocomplete-light==3.2.10
@@ -32,6 +32,7 @@ django-semanticui-forms==1.6.5
 django-sendfile==0.3.11
 django-tables2==1.21.2
 djangorestframework==3.8.2
+ffprobe3==0.1.2
 funcy==1.10.2
 future==0.16.0
 hiredis==0.2.0
