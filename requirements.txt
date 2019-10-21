@@ -10,7 +10,7 @@ coreapi==2.3.3
 coreschema==0.0.4
 coverage==4.5.1
 decorator==4.3.0
-Django==1.11.15
+Django==1.11.23
 django-appconf==1.0.2
 -e git+https://github.com/gooesoft/django-attachments@4d325a5d13a77961185ebfa678c06b22be037802#egg=django_attachments
 django-autocomplete-light==3.2.10
