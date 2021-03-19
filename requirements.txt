@@ -31,7 +31,7 @@ django-redis==4.8.0
 django-semanticui-forms==1.6.5
 django-sendfile==0.3.11
 django-tables2==1.21.2
-djangorestframework==3.8.2
+djangorestframework==3.11.2
 ffprobe3==0.1.2
 funcy==1.10.2
 future==0.16.0
