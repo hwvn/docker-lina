@@ -19,7 +19,7 @@ django-cacheops==4.0.6
 django-celery-beat==1.1.1
 django-celery-email==2.0.0
 -e git+https://github.com/gooesoft/django-celery-results@1ff9090166252a8360c62a1303402753be24eebc#egg=django_celery_results
-django-debug-toolbar==1.9.1
+django-debug-toolbar==1.11.1
 django-extensions==2.0.7
 django-filter==1.0.4
 django-formtools==2.1
